@@ -7,12 +7,12 @@
 }
 
 .form-h1 {
-	font-size: 50px;
+	font-size: 40px;
 	margin-bottom: 20px;
 }
 
 .form-label {
-	font-size: 35px;
+	font-size: 30px;
 	display: block;
 	font-weight: bold;
 }
@@ -20,66 +20,22 @@
 body {
 	background-image: url(../assets/white.jpg);
 	background-size: cover;
-	outline: dashed 4px black;
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	height: 100vh;
-	align-items: center;
+	align-items: top;
 }
 
 .input-field {
-	width: 35vh;
-	height: 4vh;
-	font-size: 25px;
+	width: 28vh;
+	height: 2vh;
+	font-size: 20px;
 	border-radius: .5em;
 	padding: 10px;
 	border: 1px solid #aaa;
 }
-.form_radio_group {
-	display: inline-block;
-	overflow: hidden;
-}
-.form_radio_group-item {
-	display: inline-block;
-	float: left;    
-}
-.form_radio_group input[type=radio] {
-	display: none;
-}
-.form_radio_group label {
-	display: inline-block;
-	cursor: pointer;
-	padding: 0px 15px;
-	line-height: 34px;
-	border: 1px solid #999;
-	border-right: none;
-	user-select: none;
-}
- 
-.form_radio_group .form_radio_group-item:first-child label {
-	border-radius: 6px 0 0 6px;
-}
-.form_radio_group .form_radio_group-item:last-child label {
-	border-radius: 0 6px 6px 0;
-	border-right: 1px solid #999;
-}
- 
-/* Checked */
-.form_radio_group input[type=radio]:checked + label {
-	background: #ffe0a6;
-}
- 
-/* Hover */
-.form_radio_group label:hover {
-	color: #666;
-}
- 
-/* Disabled */
-.form_radio_group input[type=radio]:disabled + label {
-	background: #efefef;
-	color: #666;
-}
+
 .radio-button-label {
 	font-size: 25px;
 	cursor: pointer;
@@ -93,12 +49,57 @@ body {
 	margin-bottom: 10px;
 }
 
-select {
-	font-size: 25px;
-	color: #444;
+.radio-item input[type=radio] {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+.form-select {
+	font-size: 20px;
+	color: #000;
 	border: 1px solid #aaa;
 	box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
 	border-radius: .5em;
 	background-color: #fff;
-	padding: .6em 1.4em .5em .8em;
+	padding: .3em 1.4em .3em .7em;
+}
+
+.form-textarea {
+	border: 1px solid #aaa;
+	border-radius: .8em;
+	padding: 10px 10px 10px 10px;
+}
+
+.form-file {
+	font-size: 20px;
+}
+
+.form-agreement-checkbox {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.form-agreement-label {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.form-submit-button {
+	font-size: 20px;
+	color: #000;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+	border-radius: .5em;
+	background-color: #fff;
+	padding: .3em .7em .3em .7em;
+}
+
+form {
+	width: 70vh;
+	border: 3px solid #000;
+	border-radius: .5em;
+	background-color: rgba(255,255,255,.4)
+
 }
