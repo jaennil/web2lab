@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+	font-family: Roboto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	height: 10vh;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+	padding-left: 10vh;
+}
+
+.header ul {
+	list-style-type: none;
+}
+
+.header li {
+	float: left;
+	margin-right: 10vh;
+	padding-left: 5vh;
+}
+
+.header li a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.container {
+	background-image: url(../assets/white.jpg);
+	background-size: cover;
+	background-position: bottom;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 80vh;
+	align-items: center;
+}
+
+.form-h1 {
+	font-size: 30px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.main-form {
+	width: 60vh;
+	border: 3px solid #000;
+	border-radius: .9em;
+	background-color: rgba(255, 255, 255, .6);
+	padding: 0px 20px 20px 20px;
+}
+
+.form-label {
+	font-size: 20px;
+	display: block;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.input-field {
+	width: 20vh;
+	height: 1vh;
+	font-size: 15px;
+	border-radius: .5em;
+	padding: 10px;
+	border: 1px solid #aaa;
+}
+
+.radio-button-label {
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.source-radio {
+	margin-bottom: 10px;
+}
+
+.radio-item input[type=radio] {
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+}
+
+.form-select {
+	font-size: 15px;
+	color: #000;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+	border-radius: .5em;
+	background-color: #fff;
+	padding: .3em 1.4em .3em .7em;
+}
+
+.form-textarea {
+	font-size: 15px;
+	border: 1px solid #aaa;
+	border-radius: .8em .8em 0 .8em;
+	padding: 10px 10px 10px 10px;
+}
+
+.form-file {
+	font-size: 15px;
+}
+
+.form-agreement-checkbox {
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+
+.form-agreement-label {
+	cursor: pointer;
+	font-size: 17px;
+}
+
+.form-submit-button {
+	font-size: 18px;
+	color: #000;
+	border: 1px solid #aaa;
+	box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
+	border-radius: .5em;
+	background-color: #fff;
+	padding: .3em .7em .3em .7em;
+}
+
+.footer {
+	height: 10vh;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+	padding-left: 10vh;
+}
+
+.footer ul {
+	list-style-type: none;
+}
+
+.footer li {
+	float: left;
+	margin-right: 10vh;
+	padding-left: 5vh;
+	color: white;
+}

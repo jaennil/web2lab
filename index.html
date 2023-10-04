@@ -2,63 +2,44 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="widtu=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-	<div class="container">
-		<h1 class="form-h1">Форма обратной связи</h1>
-		<form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
-			<div class="form-group">
-				<label class="form-label" for="fio">ФИО</label>
-				<input class="input-field" type="text" id="fio" name="fio" placeholder="Иванов Иван Иванович" required>
-			</div>
-			<div class="form-group">
-				<label class="form-label" for="email">Email</label>
-				<input class="input-field" placeholder="example@domain.com" type="email" id="email" name="email"
-					required>
-			</div>
-
-			<p class="form-label">Как вы о нас узнали?</p>
-			<div class="source-radio">
-				<div class="radio-item">
-					<input type="radio" id="internet" name="source" value="internet" checked />
-					<label class="radio-button-label" for="internet">Интернет</label>
-				</div>
-				<div class="radio-item">
-					<input type="radio" id="friends" name="source" value="friends" />
-					<label class="radio-button-label" for="friends">Друзья</label>
-				</div>
-				<div class="radio-item">
-					<input type="radio" id="other" name="source" value="other" />
-					<label class="radio-button-label" for="other">Другое</label>
-				</div>
-			</div>
-
-			<p class="form-label">Тип обращения</p>
-			<div class="form-group">
-				<select name="appeal-type" class="form-select">
-					<option value="complaint" checked>Жалоба</option>
-					<option value="offer" selected>Предложение</option>
-				</select>
-			</div>
-
-			<div class="form-group">
-				<p class="form-label">Текст сообщения</p>
-				<textarea id="message" name="message" rows="7" cols="40" placeholder="Текст сообщения" class="form-textarea" required></textarea>
-			</div>
-
-			<div class="form-group">
-				<p class="form-label">Вложение</p>
-				<input type="file" name="file" class="form-file" multiple/>
-			</div>
-			<div class="form-group">
-				<input type="checkbox" id="agreement" name="agreement" class="form-agreement-checkbox" />
-				<label for="agreement" class="form-agreement-label">Даю согласие на обработку персональных
-					данных</label>
-			</div>
-			<input type="submit" value="Отправить" class="form-submit-button">
-		</form>
-	</div>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="">Контакты</a></li>
+				<li><a href="">Достижения</a></li>
+				<li><a href="feedback.html">Форма обратной связи</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="table-div">
+			<table>
+				<tr>
+					<th>Проект</th>
+					<th>Последнее обновление</th>
+				</tr>
+				<tr>
+					<td>Сайт</td>
+					<td>15.09.2023</td>
+				</tr>
+				<tr>
+					<td>Почтовая рассылка</td>
+					<td>12.02.2023</td>
+				</tr>
+			</table>
+		</div>
+	</main>
+	<footer>
+		<nav>
+			<ul>
+				<li>Номер: +79254333214</li>
+				<li>Почта: testname142@gmail.com</li>
+			</ul>
+		</nav>
+	</footer>
 </body>

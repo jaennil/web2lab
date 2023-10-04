@@ -1,105 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
 	font-family: Roboto;
-	margin: 0px;
-	padding: 0px;
 }
 
-.form-h1 {
-	font-size: 40px;
-	margin-bottom: 10px;
-}
-
-.form-label {
-	font-size: 30px;
-	display: block;
-	font-weight: bold;
-}
-
-body {
-	background-image: url(../assets/white.jpg);
-	background-size: cover;
-	text-align: center;
+header {
+	height: 10vh;
+	background-color: #333333;
 	display: flex;
-	justify-content: center;
-	height: 100vh;
-	align-items: top;
+	align-items: center;
+	padding-left: 10vh;
 }
 
-.input-field {
-	width: 28vh;
-	height: 2vh;
-	font-size: 20px;
-	border-radius: .5em;
-	padding: 10px;
-	border: 1px solid #aaa;
+header ul {
+	list-style-type: none;
 }
 
-.radio-button-label {
-	font-size: 25px;
-	cursor: pointer;
+header li {
+	float: left;
+	margin-right: 10vh;
+	padding-left: 5vh;
 }
 
-.form-group {
-	margin-bottom: 15px;
+header li a {
+	text-decoration: none;
+	color: white;
 }
 
-.source-radio {
-	margin-bottom: 10px;
+td {
+	height: 80px;
+	width: 120px;
+	text-align: center;
 }
 
-.radio-item input[type=radio] {
-	cursor: pointer;
-	width: 20px;
-	height: 20px;
+table,
+th,
+td {
+	border: 1px solid;
 }
 
-.form-select {
-	font-size: 20px;
-	color: #000;
-	border: 1px solid #aaa;
-	box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
-	border-radius: .5em;
-	background-color: #fff;
-	padding: .3em 1.4em .3em .7em;
+.table-div {
+	padding-left: 30px;
+	padding-top: 30px;
 }
 
-.form-textarea {
-	border: 1px solid #aaa;
-	border-radius: .8em;
-	padding: 10px 10px 10px 10px;
+table {
+	color: white;
 }
 
-.form-file {
-	font-size: 20px;
+main {
+	display: block;
+	background-image: url('../assets/city.jpg');
+	background-size: cover;
+	min-height: 80vh;
 }
 
-.form-agreement-checkbox {
-	width: 20px;
-	height: 20px;
-	cursor: pointer;
+footer {
+	height: 10vh;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+	padding-left: 10vh;
 }
 
-.form-agreement-label {
-	cursor: pointer;
-	font-size: 20px;
+footer ul {
+	list-style-type: none;
 }
 
-.form-submit-button {
-	font-size: 20px;
-	color: #000;
-	border: 1px solid #aaa;
-	box-shadow: 0 1px 0 1px rgba(0, 0, 0, .04);
-	border-radius: .5em;
-	background-color: #fff;
-	padding: .3em .7em .3em .7em;
-}
-
-form {
-	width: 70vh;
-	border: 3px solid #000;
-	border-radius: .5em;
-	background-color: rgba(255,255,255,.4);
-	padding-bottom: 10px;
+footer li {
+	float: left;
+	margin-right: 10vh;
+	padding-left: 5vh;
+	color: white;
 }
