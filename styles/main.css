@@ -8,7 +8,7 @@
 
 .form-h1 {
 	font-size: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .form-label {
@@ -100,6 +100,6 @@ form {
 	width: 70vh;
 	border: 3px solid #000;
 	border-radius: .5em;
-	background-color: rgba(255,255,255,.4)
-
+	background-color: rgba(255,255,255,.4);
+	padding-bottom: 10px;
 }
