@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+	font-family: Roboto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.header {
+	height: 10vh;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+	padding-left: 10vh;
+}
+
+.header ul {
+	list-style-type: none;
+}
+
+.header li {
+	float: left;
+	margin-right: 10vh;
+	padding-left: 5vh;
+}
+
+.header li a {
+	text-decoration: none;
+	color: white;
+}
+
+.form-container {
+	background-image: url(../assets/flowers.jpg);
+	background-size: cover;
+	background-position: right;
+	height: 80vh;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	display: flex;
+	text-align: center;
+}
+
+.form {
+	border: 1px solid black;
+	border-radius: .5em;
+	width: 30vh;
+	height: 30vh;
+	background-color: rgba(255,255,255,.4);
+}
+
+.form-label {
+	margin-top: 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.form-input-field {
+	border: 1px solid #aaa;
+	border-radius: .8em;
+	width: 22vh;
+	height: 3vh;
+	padding-left: 5px;
+	font-size: 15px;
+}
+
+.remember-checkbox {
+	margin-top: 10px;
+}
+
+.form-submit-button {
+	font-size: 15px;
+	color: black;
+	border: 1px solid #aaa;
+	border-radius: .7em;
+	background-color: #fff;
+	padding: .3em .7em .3em .7em;
+	margin-top: 10px;
+}
+
+.footer {
+	height: 10vh;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+	padding-left: 10vh;
+}
+
+.footer ul {
+	list-style-type: none;
+}
+
+.form-group {
+	display: block;
+}
+
+.footer li {
+	float: left;
+	margin-right: 10vh;
+	padding-left: 5vh;
+	color: white;
+}
